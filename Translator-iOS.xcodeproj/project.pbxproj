@@ -15,6 +15,8 @@
 		D7817072259CFA5B009AA224 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7817070259CFA5B009AA224 /* LaunchScreen.storyboard */; };
 		D781707D259CFA5B009AA224 /* Translator_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D781707C259CFA5B009AA224 /* Translator_iOSTests.swift */; };
 		D7817088259CFA5B009AA224 /* Translator_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7817087259CFA5B009AA224 /* Translator_iOSUITests.swift */; };
+		D781709E259CFAB7009AA224 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D781709D259CFAB7009AA224 /* NetworkExtension.framework */; };
+		D78170A6259CFF38009AA224 /* BaiduTranslate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78170A5259CFF38009AA224 /* BaiduTranslate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,9 @@
 		D7817083259CFA5B009AA224 /* Translator-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Translator-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7817087259CFA5B009AA224 /* Translator_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translator_iOSUITests.swift; sourceTree = "<group>"; };
 		D7817089259CFA5B009AA224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D781709B259CFAB7009AA224 /* Translator-iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Translator-iOS.entitlements"; sourceTree = "<group>"; };
+		D781709D259CFAB7009AA224 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		D78170A5259CFF38009AA224 /* BaiduTranslate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiduTranslate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D781709E259CFAB7009AA224 /* NetworkExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +89,7 @@
 				D781707B259CFA5B009AA224 /* Translator-iOSTests */,
 				D7817086259CFA5B009AA224 /* Translator-iOSUITests */,
 				D7817063259CFA56009AA224 /* Products */,
+				D781709C259CFAB7009AA224 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +106,11 @@
 		D7817064259CFA56009AA224 /* Translator-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				D781709B259CFAB7009AA224 /* Translator-iOS.entitlements */,
 				D7817065259CFA56009AA224 /* AppDelegate.swift */,
 				D7817067259CFA56009AA224 /* SceneDelegate.swift */,
 				D7817069259CFA56009AA224 /* ViewController.swift */,
+				D78170A5259CFF38009AA224 /* BaiduTranslate.swift */,
 				D781706B259CFA56009AA224 /* Main.storyboard */,
 				D781706E259CFA5B009AA224 /* Assets.xcassets */,
 				D7817070259CFA5B009AA224 /* LaunchScreen.storyboard */,
@@ -126,6 +135,14 @@
 				D7817089259CFA5B009AA224 /* Info.plist */,
 			);
 			path = "Translator-iOSUITests";
+			sourceTree = "<group>";
+		};
+		D781709C259CFAB7009AA224 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D781709D259CFAB7009AA224 /* NetworkExtension.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +277,7 @@
 			files = (
 				D781706A259CFA56009AA224 /* ViewController.swift in Sources */,
 				D7817066259CFA56009AA224 /* AppDelegate.swift in Sources */,
+				D78170A6259CFF38009AA224 /* BaiduTranslate.swift in Sources */,
 				D7817068259CFA56009AA224 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,7 +454,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Translator-iOS/Translator-iOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZF83ZH9A2B;
 				INFOPLIST_FILE = "Translator-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,7 +474,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Translator-iOS/Translator-iOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZF83ZH9A2B;
 				INFOPLIST_FILE = "Translator-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
