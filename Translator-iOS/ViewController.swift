@@ -25,6 +25,7 @@ class ViewController: UIViewController {
     var shouldUpdateUI = false;
     var translatedResultToUpdate = "";
     var textToTranslateToUpdate = "";
+    var lastPasteboardCount = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -79,6 +80,11 @@ class ViewController: UIViewController {
         
         // Set timer to check clipbpard
         Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { (t) in
+            let pccount = UIPasteboard.general.changeCount
+            if self.lastPasteboardCount == pccount {
+                return
+            }
+            self.lastPasteboardCount = pccount
             // read from clipboard
             let strInPasteboard = UIPasteboard.general.string
             if let str = strInPasteboard {
