@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var resultDisplay: WKWebView!
     
+    @IBOutlet weak var navBar: UINavigationBar!
     
     var storedStringInPasteBoard: String = "";
     
@@ -32,7 +33,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-    
+        navBar.frame = navBar.frame.offsetBy(dx: 0, dy: UIApplication.shared.windows.first?.windowScene?.statusBarManager?.statusBarFrame.size.height ?? 0)
+        
+        resultDisplay.frame = resultDisplay.frame.offsetBy(dx: 0, dy: UIApplication.shared.windows.first?.windowScene?.statusBarManager?.statusBarFrame.size.height ?? 0)
+        
         // Load initial screen
         resultDisplay.backgroundColor = UIColor.clear;
         let welcomeHTML = """
