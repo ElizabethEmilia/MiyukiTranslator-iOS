@@ -37,6 +37,13 @@ class ViewController: UIViewController {
         
         resultDisplay.frame = resultDisplay.frame.offsetBy(dx: 0, dy: UIApplication.shared.windows.first?.windowScene?.statusBarManager?.statusBarFrame.size.height ?? 0)
         
+        self.navBar.delegate = self
+        navBar.translatesAutoresizingMaskIntoConstraints = false
+        navBar.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
+        navBar.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
+        navBar.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor).isActive = true
+
+        
         // Load initial screen
         resultDisplay.backgroundColor = UIColor.clear;
         let welcomeHTML = """
@@ -155,3 +162,8 @@ class ViewController: UIViewController {
 
 }
 
+extension ViewController: UINavigationBarDelegate {
+    func position(for bar: UIBarPositioning) -> UIBarPosition {
+        return UIBarPosition.topAttached
+    }
+}
