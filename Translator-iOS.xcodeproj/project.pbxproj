@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,7 @@
 		D7817088259CFA5B009AA224 /* Translator_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7817087259CFA5B009AA224 /* Translator_iOSUITests.swift */; };
 		D781709E259CFAB7009AA224 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D781709D259CFAB7009AA224 /* NetworkExtension.framework */; };
 		D78170A6259CFF38009AA224 /* BaiduTranslate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78170A5259CFF38009AA224 /* BaiduTranslate.swift */; };
+		D7FFCB9225D78156004C68DB /* InAppSettingsKit in Frameworks */ = {isa = PBXBuildFile; productRef = D7FFCB9125D78156004C68DB /* InAppSettingsKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D781709E259CFAB7009AA224 /* NetworkExtension.framework in Frameworks */,
+				D7FFCB9225D78156004C68DB /* InAppSettingsKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +163,9 @@
 			dependencies = (
 			);
 			name = "Translator-iOS";
+			packageProductDependencies = (
+				D7FFCB9125D78156004C68DB /* InAppSettingsKit */,
+			);
 			productName = "Translator-iOS";
 			productReference = D7817062259CFA56009AA224 /* Translator-iOS.app */;
 			productType = "com.apple.product-type.application";
@@ -232,6 +237,9 @@
 				Base,
 			);
 			mainGroup = D7817059259CFA56009AA224;
+			packageReferences = (
+				D7FFCB9025D78156004C68DB /* XCRemoteSwiftPackageReference "InAppSettingsKit" */,
+			);
 			productRefGroup = D7817063259CFA56009AA224 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -611,6 +619,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D7FFCB9025D78156004C68DB /* XCRemoteSwiftPackageReference "InAppSettingsKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/futuretap/InAppSettingsKit.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D7FFCB9125D78156004C68DB /* InAppSettingsKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7FFCB9025D78156004C68DB /* XCRemoteSwiftPackageReference "InAppSettingsKit" */;
+			productName = InAppSettingsKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D781705A259CFA56009AA224 /* Project object */;
 }

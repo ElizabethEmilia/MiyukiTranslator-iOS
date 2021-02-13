@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "InAppSettingsKit",
+        "repositoryURL": "https://github.com/futuretap/InAppSettingsKit.git",
+        "state": {
+          "branch": "master",
+          "revision": "9339de2c5c4daabefd75ec631c16d0c9cc3c2faf",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
