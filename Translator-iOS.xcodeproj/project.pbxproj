@@ -18,6 +18,7 @@
 		D781709E259CFAB7009AA224 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D781709D259CFAB7009AA224 /* NetworkExtension.framework */; };
 		D78170A6259CFF38009AA224 /* BaiduTranslate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78170A5259CFF38009AA224 /* BaiduTranslate.swift */; };
 		D7FFCB9225D78156004C68DB /* InAppSettingsKit in Frameworks */ = {isa = PBXBuildFile; productRef = D7FFCB9125D78156004C68DB /* InAppSettingsKit */; };
+		D7FFCB9725D78222004C68DB /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D7FFCB9625D78222004C68DB /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		D781709B259CFAB7009AA224 /* Translator-iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Translator-iOS.entitlements"; sourceTree = "<group>"; };
 		D781709D259CFAB7009AA224 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 		D78170A5259CFF38009AA224 /* BaiduTranslate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiduTranslate.swift; sourceTree = "<group>"; };
+		D7FFCB9625D78222004C68DB /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				D7817065259CFA56009AA224 /* AppDelegate.swift */,
 				D7817067259CFA56009AA224 /* SceneDelegate.swift */,
 				D7817069259CFA56009AA224 /* ViewController.swift */,
+				D7FFCB9625D78222004C68DB /* Settings.bundle */,
 				D78170A5259CFF38009AA224 /* BaiduTranslate.swift */,
 				D781706B259CFA56009AA224 /* Main.storyboard */,
 				D781706E259CFA5B009AA224 /* Assets.xcassets */,
@@ -256,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7FFCB9725D78222004C68DB /* Settings.bundle in Resources */,
 				D7817072259CFA5B009AA224 /* LaunchScreen.storyboard in Resources */,
 				D781706F259CFA5B009AA224 /* Assets.xcassets in Resources */,
 				D781706D259CFA56009AA224 /* Main.storyboard in Resources */,
