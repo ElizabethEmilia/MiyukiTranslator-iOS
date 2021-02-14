@@ -51,7 +51,7 @@
             </objects>
             <point key="canvasLocation" x="-43" y="207"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Preferences-->
         <scene sceneID="v6B-39-2WC">
             <objects>
                 <tableViewController id="lc6-Cv-REZ" customClass="IASKAppSettingsViewController" sceneMemberID="viewController">
@@ -74,7 +74,7 @@
                             <outlet property="delegate" destination="lc6-Cv-REZ" id="JgO-DU-HT7"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="c00-0e-8EU"/>
+                    <navigationItem key="navigationItem" title="Preferences" id="c00-0e-8EU"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="boolean" keyPath="showDoneButton" value="NO"/>
                     </userDefinedRuntimeAttributes>

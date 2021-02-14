@@ -1,0 +1,49 @@
+/*
+  Localizable.strings
+  Translator
+
+  Created by Zhixun Liu on 2021/1/2.
+  
+*/
+
+"error.invalidSign" = "请检查你填写的API Key是否正确，然后重试。";
+
+"error.unauthorizedUser" = "百度翻译API ID不正确，请打开偏好设置（command+,）并设置APP ID和APP Key以后重试。如果你没有APP ID和APP Key，你可以从百度翻译API官方网站上免费申请一个。<br><br>了解更多信息，请参阅&lt;https://github.com/ElizabethEmilia/MiyukiTranslator-MacOS/blob/master/docs/guidance-obtain-account.zh.md&gt;";
+
+"msg.translating" = "正在翻译，请稍等...";
+
+"title.error" = "ERROR";
+
+"title.translating" = "TRANSLATING";
+
+"Chinese"="中文(简体)";
+"English"="英语";
+"Cantonese"="粤语";
+"Classical Chinese"="中文(文言文)";
+"Japanese"="日语";
+"Korean"="朝鲜语";
+"French"="法语";
+"Spanish"="西班牙语";
+"Thai"="泰语";
+"Arabic"="阿拉伯语";
+"Russian"="俄罗斯语";
+"Portuguese"="葡萄牙语";
+"German"="德语";
+"Italian"="意大利语";
+"Greek"="希腊语";
+"Dutch"="荷兰语";
+"Polish"="波兰语";
+"Bulgarian"="保加利亚语";
+"Estonian"="爱沙尼亚语";
+"Danish"="丹麦语";
+"Finnish"="芬兰语";
+"Czech"="捷克语";
+"Romanian"="罗马尼亚语";
+"Slovenian"="斯洛文尼亚语";
+"Swedish"="瑞典语";
+"Hungary"="匈牙利语";
+"Traditional Chinese"="中文(繁体)";
+
+"Translate Into" = "翻译为";
+"help_url" = "https://github.com/ElizabethEmilia/MiyukiTranslator-MacOS/blob/master/docs/guidance-obtain-account.zh.md";
+
