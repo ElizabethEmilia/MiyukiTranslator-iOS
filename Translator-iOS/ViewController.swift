@@ -128,6 +128,8 @@ class ViewController: UIViewController {
             }
             self.shouldUpdateUI = false
             // check theme
+            let mainFrontColor = self.traitCollection.userInterfaceStyle == .light ? "#000" : "#fff"
+            let mainBackColor = self.traitCollection.userInterfaceStyle == .light ? "#fff" : "#111"
             let fontColor = self.traitCollection.userInterfaceStyle == .light ? "#000" : "#fff"
             let backColor = self.traitCollection.userInterfaceStyle == .light ? "(200,200,200,0.2)" : "(255,255,255,0.2)"
             
@@ -162,6 +164,8 @@ class ViewController: UIViewController {
                     return
                 }
                 // check theme
+                let mainFrontColor = self.traitCollection.userInterfaceStyle == .light ? "#000" : "#fff"
+                let mainBackColor = self.traitCollection.userInterfaceStyle == .light ? "#fff" : "#111"
                 let fontColor = self.traitCollection.userInterfaceStyle == .light ? "#000" : "#fff"
                 let backColor = self.traitCollection.userInterfaceStyle == .light ? "(200,200,200,0.2)" : "(255,255,255,0.2)"
                 

@@ -20,6 +20,8 @@ class PreferenceViewController: IASKAppSettingsViewController, IASKSettingsDeleg
         super.viewDidLoad()
         
         self.delegate = self;
+        self.title = NSLocalizedString("Preferences", comment: "");
+        self.showCreditsFooter = false;
     }
     
     
