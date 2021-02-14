@@ -199,7 +199,7 @@ class ViewController: UIViewController {
                 
                 let isInChinese = nonAsciiCount > charArr.count / 3
                 let isEnglishWord = nonLetterCount == 0
-                let doNotTranslateIfInChinese = UserDefaults.standard.integer(forKey: "whenMeetChineseCharacter") == 0
+                let doNotTranslateIfInChinese = UserDefaults.standard.integer(forKey: KEY_WHEN_MEET_CHINESE_CHARACTER) == 0
                 //let translateToAnotherLanguage = !doNotTranslateIfInChinese
                 
                 if isInChinese && doNotTranslateIfInChinese {

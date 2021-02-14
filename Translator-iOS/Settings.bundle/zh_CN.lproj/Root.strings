@@ -13,6 +13,8 @@
 "SOURCE CODE" = "源代码";
 "View source code on GitHub" = "在Github查看源代码";
 
+"If language selected in \"Translate Into\" is Chinese, translate into English instead." = "如果在\"翻译为\"中选择了简体中文，那么会翻译为英语";
+
 "Chinese"="中文(简体)";
 "English"="英语";
 "Cantonese"="粤语";
