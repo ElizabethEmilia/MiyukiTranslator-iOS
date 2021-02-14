@@ -1,0 +1,56 @@
+/* 
+  Localizable.strings
+  Translator-iOS
+
+  Created by Zhixun Liu on 2021/2/15.
+  
+*/
+
+/*
+  Localizable.strings
+  Translator
+
+  Created by Zhixun Liu on 2021/1/2.
+  
+*/
+
+"error.invalidSign" = "Please check if your API ID and/or secret key is correct and retry.";
+
+"error.unauthorizedUser" = "Baidu Translated API ID is incorrect, please go to perference (press command+,) and set Baidu API ID and Secret Key then retry. If you don't have any, you can obtain one from Baidu Translate Offical Site. <br><br> For more information, see &lt;https://github.com/ElizabethEmilia/MiyukiTranslator-MacOS/blob/master/docs/guidance-obtain-account.en.md&gt;";
+
+"msg.translating" = "Translating, please wait...";
+
+"title.error" = "ERROR";
+
+"title.translating" = "TRANSLATING";
+
+"Chinese"="Chinese";
+"English"="English";
+"Cantonese"="Cantonese";
+"Classical Chinese"="Classical Chinese";
+"Japanese"="Japanese";
+"Korean"="Korean";
+"French"="French";
+"Spanish"="Spanish";
+"Thai"="Thai";
+"Arabic"="Arabic";
+"Russian"="Russian";
+"Portuguese"="Portuguese";
+"German"="German";
+"Italian"="Italian";
+"Greek"="Greek";
+"Dutch"="Dutch";
+"Polish"="Polish";
+"Bulgarian"="Bulgarian";
+"Estonian"="Estonian";
+"Danish"="Danish";
+"Finnish"="Finnish";
+"Czech"="Czech";
+"Romanian"="Romanian";
+"Slovenian"="Slovenian";
+"Swedish"="Swedish";
+"Hungary"="Hungary";
+"Traditional Chinese"="Traditional Chinese";
+
+"Translate Into" = "Translate into ";
+"help_url" = "https://github.com/ElizabethEmilia/MiyukiTranslator-MacOS/blob/master/docs/guidance-obtain-account.en.md";
