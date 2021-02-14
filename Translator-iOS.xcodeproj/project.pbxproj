@@ -22,6 +22,7 @@
 		D7FFCBA225D97BFD004C68DB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FFCBA125D97BFD004C68DB /* Constants.swift */; };
 		D7FFCBA725D982CA004C68DB /* DictionaryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FFCBA625D982CA004C68DB /* DictionaryAPI.swift */; };
 		D7FFCBB025D98A28004C68DB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7FFCBB225D98A28004C68DB /* Localizable.strings */; };
+		D7FFCBBD25D993CB004C68DB /* PreferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FFCBBC25D993CB004C68DB /* PreferenceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		D7FFCBB625D98A6B004C68DB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		D7FFCBB725D98A6B004C68DB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		D7FFCBB825D98A6B004C68DB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		D7FFCBBC25D993CB004C68DB /* PreferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				D7817065259CFA56009AA224 /* AppDelegate.swift */,
 				D7817067259CFA56009AA224 /* SceneDelegate.swift */,
 				D7817069259CFA56009AA224 /* ViewController.swift */,
+				D7FFCBBC25D993CB004C68DB /* PreferenceViewController.swift */,
 				D7FFCB9625D78222004C68DB /* Settings.bundle */,
 				D78170A5259CFF38009AA224 /* BaiduTranslate.swift */,
 				D781706B259CFA56009AA224 /* Main.storyboard */,
@@ -306,6 +309,7 @@
 				D7FFCBA725D982CA004C68DB /* DictionaryAPI.swift in Sources */,
 				D7817066259CFA56009AA224 /* AppDelegate.swift in Sources */,
 				D78170A6259CFF38009AA224 /* BaiduTranslate.swift in Sources */,
+				D7FFCBBD25D993CB004C68DB /* PreferenceViewController.swift in Sources */,
 				D7817068259CFA56009AA224 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -54,7 +54,7 @@
         <!--Preferences-->
         <scene sceneID="v6B-39-2WC">
             <objects>
-                <tableViewController id="lc6-Cv-REZ" customClass="IASKAppSettingsViewController" sceneMemberID="viewController">
+                <tableViewController id="lc6-Cv-REZ" customClass="PreferenceViewController" customModule="Translator_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="HhN-xO-qPm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -76,7 +76,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Preferences" id="c00-0e-8EU"/>
                     <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="boolean" keyPath="showDoneButton" value="NO"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="showDoneButton" value="YES"/>
                     </userDefinedRuntimeAttributes>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lnQ-8f-48T" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
