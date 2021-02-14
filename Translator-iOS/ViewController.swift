@@ -234,7 +234,10 @@ class ViewController: UIViewController {
         }
     }
 
-
+    override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+           // Trait collection has already changed
+        self.shouldUpdateUI = true;
+    }
 }
 
 extension ViewController: UINavigationBarDelegate {
