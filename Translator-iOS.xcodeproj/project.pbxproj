@@ -19,6 +19,8 @@
 		D78170A6259CFF38009AA224 /* BaiduTranslate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78170A5259CFF38009AA224 /* BaiduTranslate.swift */; };
 		D7FFCB9225D78156004C68DB /* InAppSettingsKit in Frameworks */ = {isa = PBXBuildFile; productRef = D7FFCB9125D78156004C68DB /* InAppSettingsKit */; };
 		D7FFCB9725D78222004C68DB /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D7FFCB9625D78222004C68DB /* Settings.bundle */; };
+		D7FFCBA225D97BFD004C68DB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FFCBA125D97BFD004C68DB /* Constants.swift */; };
+		D7FFCBA725D982CA004C68DB /* DictionaryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FFCBA625D982CA004C68DB /* DictionaryAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		D781709D259CFAB7009AA224 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 		D78170A5259CFF38009AA224 /* BaiduTranslate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiduTranslate.swift; sourceTree = "<group>"; };
 		D7FFCB9625D78222004C68DB /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		D7FFCBA125D97BFD004C68DB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D7FFCBA625D982CA004C68DB /* DictionaryAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,8 @@
 				D781706E259CFA5B009AA224 /* Assets.xcassets */,
 				D7817070259CFA5B009AA224 /* LaunchScreen.storyboard */,
 				D7817073259CFA5B009AA224 /* Info.plist */,
+				D7FFCBA125D97BFD004C68DB /* Constants.swift */,
+				D7FFCBA625D982CA004C68DB /* DictionaryAPI.swift */,
 			);
 			path = "Translator-iOS";
 			sourceTree = "<group>";
@@ -287,7 +293,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7FFCBA225D97BFD004C68DB /* Constants.swift in Sources */,
 				D781706A259CFA56009AA224 /* ViewController.swift in Sources */,
+				D7FFCBA725D982CA004C68DB /* DictionaryAPI.swift in Sources */,
 				D7817066259CFA56009AA224 /* AppDelegate.swift in Sources */,
 				D78170A6259CFF38009AA224 /* BaiduTranslate.swift in Sources */,
 				D7817068259CFA56009AA224 /* SceneDelegate.swift in Sources */,
