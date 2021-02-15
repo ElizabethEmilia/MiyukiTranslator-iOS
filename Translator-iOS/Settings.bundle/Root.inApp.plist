@@ -32,7 +32,7 @@
         
         <dict>
                     <key>File</key>
-                    <string>https://github.com/ElizabethEmilia/MiyukiTranslator-MacOS/blob/master/docs/guidance-obtain-account.en.md</string>
+                    <string>link_whats_appid</string>
                     <key>Title</key>
                     <string>What's APP ID?</string>
                     <key>Type</key>
@@ -179,6 +179,8 @@
                     <string>View source code on GitHub</string>
                     <key>Type</key>
                     <string>IASKOpenURLSpecifier</string>
+                    <key>IASKTextAlignment</key>
+                    <string>IASKUITextAlignmentLeft</string>
         </dict>
         
         
