@@ -34,7 +34,7 @@
                     <key>File</key>
                     <string>https://github.com/ElizabethEmilia/MiyukiTranslator-MacOS/blob/master/docs/guidance-obtain-account.en.md</string>
                     <key>Title</key>
-                    <string>What's APP ID and how to obtain?</string>
+                    <string>What's APP ID?</string>
                     <key>Type</key>
                     <string>IASKOpenURLSpecifier</string>
                     <key>IASKTextAlignment</key>

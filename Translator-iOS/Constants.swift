@@ -7,6 +7,13 @@
 
 import Foundation
 
+let KEY_APP_ID = "api_id_preference"
+let KEY_APP_KEY = "api_key_preference"
+let KEY_TRANSLATE_INTO = "trabslate_into_preference"
+let KEY_WHEN_MEET_CHINESE_CHARACTER = "trabslate_from_chinese_preference"
+let KEY_LOOKUP_DICT = "lookup_dictionary_preference"
+
+
 func constant__get_languages() -> [String] {
     let lang = ["Chinese", "English", "Cantonese", "Classical Chinese", "Japanese", "Korean", "French", "Spanish", "Thai", "Arabic", "Russian", "Portuguese", "German", "Italian", "Greek", "Dutch", "Polish", "Bulgarian", "Estonian", "Danish", "Finnish", "Czech", "Romanian", "Slovenian", "Swedish", "Hungary", "Traditional Chinese"]
     return lang.map{ NSLocalizedString($0, comment: "") }
@@ -21,7 +28,7 @@ func constant__get_national_flags() -> [String] {
 }
 
 func getCurrentLanguageCode() -> String {
-    return constant__get_language_codes()[UserDefaults.standard.integer(forKey: "translateInto")]
+    return constant__get_language_codes()[UserDefaults.standard.integer(forKey: KEY_TRANSLATE_INTO)]
 }
 
 func ui_template__main_page(backgroundColor: String) -> String {
@@ -128,10 +135,4 @@ func ui_template__dictionary_result(htmlString: String, backColor: String, fontC
     </html>
 """
 }
-
-let KEY_APP_ID = "api_id_preference"
-let KEY_APP_KEY = "api_key_preference"
-let KEY_TRANSLATE_INTO = "trabslate_into_preference"
-let KEY_WHEN_MEET_CHINESE_CHARACTER = "trabslate_from_chinese_preference"
-let KEY_LOOKUP_DICT = "lookup_dictionary_preference"
 
